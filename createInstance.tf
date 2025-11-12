@@ -1,10 +1,4 @@
 
-provider "aws" {
-  access_key = "AKIAT5LKXCWQP3DCJJE6"
-  secret_key = "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"
-  region     = "us-east-1c"
-}
-
 
 
 resource "aws_instance" "MyFirstInstnace" {
